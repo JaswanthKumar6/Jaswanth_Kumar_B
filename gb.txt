@@ -10,4 +10,4 @@ CREATE TABLE courses ( course_id INT PRIMARY KEY, course_name VARCHAR(100), depa
 CREATE TABLE enrollments ( enrollment_id INT PRIMARY KEY, student_id INT,
 course_id INT,
 semester VARCHAR(10), grade DECIMAL(3, 2)
-);
+);crea
